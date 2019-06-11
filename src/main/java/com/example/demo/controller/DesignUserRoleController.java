@@ -10,12 +10,12 @@ import org.springframework.stereotype.Controller;
  *  前端控制器
  * </p>
  *
- * @author 小混蛋
- * @since 2018-08-22
+ * @author haoy
+ * @since 2019-06-11
  */
 @Controller
-@RequestMapping("/tbPermission")
-public class TbPermissionController {
+@RequestMapping("/designUserRole")
+public class DesignUserRoleController {
 
 }
 

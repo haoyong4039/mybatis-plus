@@ -7,9 +7,11 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @MapperScan("com.example.demo.mapper")
-public class MybatisPlusConfig {
+public class MybatisPlusConfig
+{
     @Bean
-    public PaginationInterceptor paginationInterceptor() {
+    public PaginationInterceptor paginationInterceptor()
+    {
         return new PaginationInterceptor();
     }
 }

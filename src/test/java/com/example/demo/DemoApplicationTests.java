@@ -8,13 +8,15 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DemoApplicationTests {
+public class DemoApplicationTests
+{
 
     @Test
-    public void contextLoads() {
+    public void contextLoads()
+    {
         CodeGenerator gse = new CodeGenerator();
         //要给那些表生成
-        gse.generateByTables(false,"tb_user", "tb_role","tb_permission","tb_user_role","tb_role_permission");
+        gse.generateByTables(false, "design_user_role","design_role","design_user");
     }
 
 }
