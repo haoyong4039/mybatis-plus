@@ -8,7 +8,7 @@ public class DemoApplication
 {
     public static void main(String[] args)
     {
-        System.out.println("hotfix finished");
+        System.out.println("this is remote develop");
         SpringApplication.run(DemoApplication.class, args);
     }
 }
