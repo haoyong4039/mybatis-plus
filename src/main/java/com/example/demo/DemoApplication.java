@@ -8,7 +8,7 @@ public class DemoApplication
 {
     public static void main(String[] args)
     {
-        System.out.println("this is hotfix 0.0.3");
+        System.out.println("this is hotfix 0.0.4");
         SpringApplication.run(DemoApplication.class, args);
     }
 }
